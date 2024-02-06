@@ -145,6 +145,11 @@
                         <h1>
                             Welcome TO Dashboard
                         </h1>
+
+                        <form action="<?= route_to('user.logoutHandeler') ?>" method="post">
+                            <?= csrf_field() ?>
+                            <button type="submit" class="btn btn-primary">Logout</button>
+                        </form>
                     </div>
                 </div>
             </div>

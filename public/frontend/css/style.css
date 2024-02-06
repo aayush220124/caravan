@@ -199,7 +199,7 @@ button.gauto-theme-btn {
   background: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: #ec3323;
+  border-color: #ec6f23;
   position: relative;
   margin: 1em;
   display: inline-block;
@@ -219,7 +219,7 @@ button.gauto-theme-btn:after {
   content: "";
   display: block;
   position: absolute;
-  border-color: #ec3323;
+  border-color: #ec6f23;
   box-sizing: border-box;
   border-style: solid;
   width: 1em;
@@ -249,22 +249,22 @@ button.gauto-theme-btn:hover:before,
 button.gauto-theme-btn:hover:after {
   width: calc(100% + 12px);
   height: calc(100% + 12px);
-  border-color: #ec3323;
+  border-color: #ec6f23;
 }
 
 .gauto-btn:hover,
 button.gauto-theme-btn:hover {
   color: #fff;
-  background-color: #ec3323;
-  border-color: #ec3323;
+  background-color: #ec6f23;
+  border-color: #ec6f23;
 }
 
 button.gauto-theme-btn {
-  color: #ec3323;
+  color: #ec6f23;
   background: transparent;
   border-width: 2px;
   border-style: solid;
-  border-color: #ec3323;
+  border-color: #ec6f23;
   position: relative;
   display: block;
   padding: 8px 15px;
@@ -284,7 +284,7 @@ button.gauto-theme-btn:after {
   content: "";
   display: block;
   position: absolute;
-  border-color: #ec3323;
+  border-color: #ec6f23;
   box-sizing: border-box;
   border-style: solid;
   width: 1em;
@@ -312,14 +312,14 @@ button.gauto-theme-btn:hover:before,
 button.gauto-theme-btn:hover:after {
   width: calc(100% + 12px);
   height: calc(100% + 12px);
-  border-color: #ec3323;
+  border-color: #ec6f23;
 }
 
 .gauto-btn:hover,
 button.gauto-theme-btn:hover {
   color: #fff;
-  background-color: #ec3323;
-  border-color: #ec3323;
+  background-color: #ec6f23;
+  border-color: #ec6f23;
 }
 
 .site-heading {
@@ -331,7 +331,7 @@ button.gauto-theme-btn:hover {
 
 .site-heading h4 {
   font-size: 20px;
-  color: #ec3323;
+  color: #ec6f23;
   margin-bottom: 10px;
   display: block;
   font-weight: 500;
@@ -420,7 +420,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_arrow {
   float: right;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .slicknav_nav a:hover {
@@ -433,7 +433,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_nav a:hover,
 .slicknav_nav .slicknav_row:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -459,7 +459,7 @@ button.gauto-theme-btn:hover {
 
 .slicknav_nav {
   background: #fff none repeat scroll 0 0;
-  border-top: 1px solid #ec3323;
+  border-top: 1px solid #ec6f23;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.19);
 }
 
@@ -589,7 +589,7 @@ button.gauto-theme-btn:hover {
 }
 
 .breadcromb-box li i {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 /*================================================
@@ -605,8 +605,8 @@ button.gauto-theme-btn:hover {
 }
 
 .btntoTop {
-  background-color: #ec3323;
-  border: 2px solid #ec3323;
+  background-color: #ec6f23;
+  border: 2px solid #ec6f23;
   border-radius: 5px;
   bottom: 70px;
   cursor: pointer;
@@ -659,7 +659,7 @@ button.gauto-theme-btn:hover {
 
 .header-top-left:before {
   position: absolute;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   content: "";
   top: 0;
   right: 37%;
@@ -691,7 +691,7 @@ button.gauto-theme-btn:hover {
   height: 25px;
   line-height: 25px;
   background: #fff none repeat scroll 0 0;
-  color: #ec3323;
+  color: #ec6f23;
   border-radius: 50%;
   margin: 0 2px;
 }
@@ -806,7 +806,7 @@ button.gauto-theme-btn:hover {
   display: inline-block;
   text-align: center;
   padding: 10px 25px 10px 0px;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
   text-transform: uppercase;
   font-weight: 500;
@@ -816,7 +816,7 @@ button.gauto-theme-btn:hover {
 
 .header-action a:before {
   position: absolute;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   content: "";
   top: 0;
   left: -25px;
@@ -860,7 +860,7 @@ button.gauto-theme-btn:hover {
 
 .mainmenu ul li:hover > a,
 .mainmenu ul li.active > a {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .mainmenu ul li ul {
@@ -929,7 +929,7 @@ button.gauto-theme-btn:hover {
   position: absolute;
   width: 18px;
   height: 18px;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   font-size: 10px;
   line-height: 20px;
   color: #fff;
@@ -1009,7 +1009,7 @@ button.gauto-theme-btn:hover {
 .product-remove {
   float: right;
   font-size: 16px !important;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .cart-btn-pro-img {
@@ -1088,7 +1088,7 @@ button.gauto-theme-btn:hover {
   content: "";
   width: 66%;
   height: 100%;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   right: -36px;
   z-index: -1;
   -webkit-transform: skewX(40deg);
@@ -1098,7 +1098,7 @@ button.gauto-theme-btn:hover {
 }
 
 .cart-btn:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
 }
 
 .cart-btn:hover:after {
@@ -1259,7 +1259,7 @@ button.gauto-theme-btn:hover {
 }
 
 .find-form p input:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .find-form .nice-select {
@@ -1355,7 +1355,7 @@ button.gauto-theme-btn:hover {
 
 .about-left h4 {
   font-size: 20px;
-  color: #ec3323;
+  color: #ec6f23;
   margin-bottom: 10px;
   display: block;
   font-weight: 500;
@@ -1393,7 +1393,7 @@ button.gauto-theme-btn:hover {
   height: 20px;
   text-align: center;
   border-radius: 2px;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
   line-height: 20px;
   font-size: 12px;
@@ -1501,7 +1501,7 @@ button.gauto-theme-btn:hover {
 
 .service-text a:hover,
 .service-text h3:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .service-slider .owl-dots {
@@ -1530,7 +1530,7 @@ button.gauto-theme-btn:hover {
 
 .service-slider .owl-dots .owl-dot.active span,
 .service-slider .owl-dots .owl-dot:hover span {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
 }
 
 /*================================================
@@ -1567,7 +1567,7 @@ button.gauto-theme-btn:hover {
 
 .promo-box-left:after {
   position: absolute;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   content: "";
   top: 0;
   right: 55%;
@@ -1664,7 +1664,7 @@ button.gauto-theme-btn:hover {
 }
 
 #offerTab li.nav-item a.nav-link:hover:after {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   -webkit-transform: skew(-40deg);
   transform: skew(-40deg);
 }
@@ -1679,7 +1679,7 @@ button.gauto-theme-btn:hover {
   z-index: -1;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   -webkit-transform: skew(-40deg);
   transform: skew(-40deg);
 }
@@ -1727,7 +1727,7 @@ button.gauto-theme-btn:hover {
 
 .offer-text h4 span {
   text-transform: capitalize;
-  color: #ec3323;
+  color: #ec6f23;
   font-size: 16px;
 }
 
@@ -1758,7 +1758,7 @@ button.gauto-theme-btn:hover {
   content: "";
   width: 66%;
   height: 100%;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   right: -36px;
   z-index: -1;
   -webkit-transform: skewX(40deg);
@@ -1768,7 +1768,7 @@ button.gauto-theme-btn:hover {
 }
 
 .offer-action:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
 }
 
 .offer-action:hover:after {
@@ -1788,7 +1788,7 @@ button.gauto-theme-btn:hover {
 
 .offer-text ul li i {
   margin-right: 5px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 /*================================================
@@ -1870,7 +1870,7 @@ button.gauto-theme-btn:hover {
 }
 
 .client-info p {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .testimonial-slider .owl-dots {
@@ -1899,7 +1899,7 @@ button.gauto-theme-btn:hover {
 
 .testimonial-slider .owl-dots .owl-dot.active span,
 .testimonial-slider .owl-dots .owl-dot:hover span {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
 }
 
 /*================================================
@@ -1945,7 +1945,7 @@ button.gauto-theme-btn:hover {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  background-color: #ec3323;
+  background-color: #ec6f23;
   border-radius: 50%;
   color: #fff;
   font-size: 14px;
@@ -2073,7 +2073,7 @@ button.gauto-theme-btn:hover {
 }
 
 .driver-text a h3:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .driver_page .pagination-box-row {
@@ -2086,7 +2086,7 @@ button.gauto-theme-btn:hover {
 }
 
 .load-more a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
   margin-bottom: 0;
 }
 
@@ -2139,7 +2139,7 @@ button.gauto-theme-btn:hover {
 }
 
 .call-box h2 span {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .call-box-inner p {
@@ -2219,7 +2219,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text h3 a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .blog-meta-home {
@@ -2274,7 +2274,7 @@ button.gauto-theme-btn:hover {
 
 .blog-meta-right p i {
   margin-right: 5px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .gauto-blog-page-area {
@@ -2296,7 +2296,7 @@ button.gauto-theme-btn:hover {
 
 .blog-text ul li i {
   margin-right: 5px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .blog-text ul li a {
@@ -2304,7 +2304,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .blog-text a.gauto-btn:hover {
@@ -2312,7 +2312,7 @@ button.gauto-theme-btn:hover {
 }
 
 .blog-text a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
   margin: 20px 0 0 0;
 }
 
@@ -2385,7 +2385,7 @@ button.gauto-theme-btn:hover {
   bottom: -13px;
   width: 18%;
   height: 2px;
-  background: #ec3323;
+  background: #ec6f23;
   left: 0;
 }
 
@@ -2436,7 +2436,7 @@ button.gauto-theme-btn:hover {
   background: transparent;
   right: 10px;
   height: 100%;
-  color: #ec3323;
+  color: #ec6f23;
   cursor: pointer;
 }
 
@@ -2498,7 +2498,7 @@ button.gauto-theme-btn:hover {
 }
 
 .copyright p i {
-  color: #ec3323;
+  color: #ec6f23;
   margin: 0 2px;
 }
 
@@ -2527,7 +2527,7 @@ button.gauto-theme-btn:hover {
 
 .about-page-left h4 {
   font-size: 20px;
-  color: #ec3323;
+  color: #ec6f23;
   margin-bottom: 10px;
   display: block;
   font-weight: 500;
@@ -2573,12 +2573,12 @@ button.gauto-theme-btn:hover {
 .page-call-icon {
   font-size: 50px;
   margin-right: 30px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .call-info p {
   text-transform: capitalize;
-  color: #ec3323;
+  color: #ec6f23;
   font-size: 17px;
   margin-bottom: 5px;
 }
@@ -2619,7 +2619,7 @@ button.gauto-theme-btn:hover {
 }
 
 .about-promo-text h3 span {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .about-promo-image {
@@ -2667,7 +2667,7 @@ button.gauto-theme-btn:hover {
 
 .service-menu li.active a,
 .service-menu li a:hover {
-  color: #ec3323;
+  color: #ec6f23;
   padding-left: 25px;
 }
 
@@ -2688,7 +2688,7 @@ button.gauto-theme-btn:hover {
   content: "";
   width: 62%;
   height: 100%;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   right: -36px;
   z-index: -1;
   -webkit-transform: skewX(40deg);
@@ -2712,7 +2712,7 @@ button.gauto-theme-btn:hover {
 }
 
 .brochures:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
 }
 
 .brochures:hover:after {
@@ -2761,7 +2761,7 @@ button.gauto-theme-btn:hover {
 }
 
 .service-page-banner a:hover {
-  color: #ec3323;
+  color: #ec6f23;
   background-color: #fff;
   border-color: #fff;
 }
@@ -2813,7 +2813,7 @@ button.gauto-theme-btn:hover {
 }
 
 .service-details-list li i {
-  color: #ec3323;
+  color: #ec6f23;
   margin-right: 5px;
 }
 
@@ -2849,7 +2849,7 @@ button.gauto-theme-btn:hover {
 }
 
 .Tags-catagory a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .single_faq_accordian {
@@ -2906,7 +2906,7 @@ button.gauto-theme-btn:hover {
   width: 13%;
   height: 101%;
   left: -26px;
-  background: #ec3323;
+  background: #ec6f23;
   -webkit-transform: skew(-30deg);
   transform: skew(-30deg);
   -webkit-transition: all 0.4s ease 0s;
@@ -2920,7 +2920,7 @@ button.gauto-theme-btn:hover {
   width: 13%;
   height: 101%;
   left: -26px;
-  background: #ec3323;
+  background: #ec6f23;
   -webkit-transform: skew(30deg);
   transform: skew(30deg);
 }
@@ -2954,7 +2954,7 @@ button.gauto-theme-btn:hover {
 }
 
 .sidebar-widget form p input:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .sidebar-widget form {
@@ -3060,7 +3060,7 @@ button.gauto-theme-btn:hover {
   padding: 5px 15px;
   line-height: 20px;
   text-transform: uppercase;
-  background: #ec3323;
+  background: #ec6f23;
   color: #fff;
   font-weight: 500;
   font-size: 14px;
@@ -3092,7 +3092,7 @@ button.gauto-theme-btn:hover {
 
 .car-booking-right h4 span {
   text-transform: capitalize;
-  color: #ec3323;
+  color: #ec6f23;
   font-size: 16px;
 }
 
@@ -3138,7 +3138,7 @@ button.gauto-theme-btn:hover {
 
 .car-features ul li i {
   margin-right: 5px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .single-booking h3,
@@ -3200,7 +3200,7 @@ button.gauto-theme-btn:hover {
 }
 
 .single-booking form p input:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .single-booking {
@@ -3265,15 +3265,15 @@ button.gauto-theme-btn:hover {
 }
 
 input[type="radio"]:checked ~ .check {
-  border: 3px solid #ec3323;
+  border: 3px solid #ec6f23;
 }
 
 input[type="radio"]:checked ~ .check:before {
-  background: #ec3323;
+  background: #ec6f23;
 }
 
 input[type="radio"]:checked ~ label {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .payment img {
@@ -3286,7 +3286,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .action-btn a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
   margin: 30px 0 0 0;
 }
 
@@ -3411,7 +3411,7 @@ input[type="radio"]:checked ~ label {
   font-size: 16px;
   line-height: 60px;
   font-weight: 500;
-  background: #ec3323;
+  background: #ec6f23;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   -webkit-transition: all 500ms ease;
@@ -3547,7 +3547,7 @@ input[type="radio"]:checked ~ label {
 
 .recent-text p,
 .product-title p {
-  color: #ec3323;
+  color: #ec6f23;
   font-weight: 500;
 }
 
@@ -3612,9 +3612,9 @@ input[type="radio"]:checked ~ label {
 }
 
 .product-action a:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
-  border: 1px solid #ec3323;
+  border: 1px solid #ec6f23;
 }
 
 .product-item {
@@ -3676,11 +3676,11 @@ input[type="radio"]:checked ~ label {
 }
 
 .single-shop-price p span {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .single-shop-page-btn a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
   margin: 0;
 }
 
@@ -3722,9 +3722,9 @@ input[type="radio"]:checked ~ label {
 
 .single-shop-page-btn ul li a:hover,
 .gauto-cart-close a:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
-  border: 1px solid #ec3323;
+  border: 1px solid #ec6f23;
 }
 
 .gauto-related-products .product-item {
@@ -3825,7 +3825,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .cart-clear a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .order-summury-box {
@@ -3856,7 +3856,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .checkout-action a.gauto-btn {
-  color: #ec3323;
+  color: #ec6f23;
   margin: 0;
 }
 
@@ -3909,7 +3909,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .checkout-left-box form input:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .checkout-left-box form label {
@@ -4038,7 +4038,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .comment-info a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .comment-info a i {
@@ -4073,7 +4073,7 @@ input[type="radio"]:checked ~ label {
 
 .gauto-leave-comment form input:focus,
 .gauto-leave-comment form textarea:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .gauto-leave-comment .gauto-theme-btn {
@@ -4121,7 +4121,7 @@ input[type="radio"]:checked ~ label {
 
 .notfound-box a.gauto-btn {
   margin: 30px 0 0 0;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .notfound-box a.gauto-btn:hover {
@@ -4152,7 +4152,7 @@ input[type="radio"]:checked ~ label {
 .login-page-heading i {
   font-size: 22px;
   margin-right: 5px;
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .login-page-heading > h3 {
@@ -4226,7 +4226,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .login-sign-up > a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .login-page-box .remember {
@@ -4286,7 +4286,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .lost-pass a:hover {
-  color: #ec3323;
+  color: #ec6f23;
 }
 
 .checkbox label {
@@ -4382,8 +4382,8 @@ input[type="radio"]:checked ~ label {
 .checkbox-spin:checked + label span:before {
   -webkit-transform: rotateZ(180deg);
   transform: rotateZ(180deg);
-  background: #ec3323;
-  border: 1px solid #ec3323;
+  background: #ec6f23;
+  border: 1px solid #ec6f23;
 }
 
 /*================================================
@@ -4428,7 +4428,7 @@ input[type="radio"]:checked ~ label {
 
 .contact-left form input:focus,
 .contact-left form textarea:focus {
-  border: 2px solid #ec3323;
+  border: 2px solid #ec6f23;
 }
 
 .single-contact-field button.gauto-theme-btn {
@@ -4438,7 +4438,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .contact-details p i {
-  color: #ec3323;
+  color: #ec6f23;
   margin-right: 5px;
 }
 
@@ -4469,7 +4469,7 @@ input[type="radio"]:checked ~ label {
   letter-spacing: 1px;
   color: #fff;
   font-weight: 500;
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   border-radius: 4px;
 }
 
@@ -4498,7 +4498,7 @@ input[type="radio"]:checked ~ label {
 }
 
 .social-links-contact ul li a:hover {
-  background: #ec3323 none repeat scroll 0 0;
+  background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
-  border: 1px solid #ec3323;
+  border: 1px solid #ec6f23;
 }

@@ -130,7 +130,7 @@
     <!-- Breadcromb Area End -->
 
 
-    <!-- Login Area Start -->
+    <!-- Signup Area Start -->
     <section class="gauto-login-area section_70">
         <div class="container">
             <div class="row">
@@ -138,29 +138,29 @@
                     <div class="login-box">
                         <div class="login-page-heading">
                             <i class="fa fa-key"></i>
-                            <h3>sign Up</h3>
+                            <h3>Sign Up</h3>
                         </div>
                         <form action="<?= route_to('user.signupHandeler') ?>" method="post">
                             <?= csrf_field() ?>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Username" name="username">
+                                <input type="text" placeholder="Username" name="username" required>
                                 <i class="fa fa-user"></i>
                             </div>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Email" name="email">
+                                <input type="email" placeholder="Email" name="email" required>
                                 <i class="fa fa-envelope-o"></i>
                             </div>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Mobile" name="mobile">
+                                <input type="tel" placeholder="Mobile" name="mobile" pattern="[0-9]{10}" required>
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="account-form-group">
-                                <input type="password" placeholder="Password" name="password">
+                                <input type="password" placeholder="Password (min 8 characters, combination of letters, numbers, and special characters)" name="password" required pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,}">
                                 <i class="fa fa-lock"></i>
                             </div>
                             <div class="remember-row">
                                 <p class="checkbox remember signup">
-                                    <input class="checkbox-spin" type="checkbox" id="Freelance">
+                                    <input class="checkbox-spin" type="checkbox" id="Freelance" required>
                                     <label for="Freelance"><span></span>accept terms & condition</label>
                                 </p>
                             </div>
@@ -176,7 +176,8 @@
             </div>
         </div>
     </section>
-    <!-- Login Area End -->
+    <!-- Signup Area End -->
+
 
 
     <!-- Footer Area Start -->

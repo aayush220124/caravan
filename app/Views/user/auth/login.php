@@ -141,14 +141,22 @@
                             <i class="fa fa-key"></i>
                             <h3>Sign In</h3>
                         </div>
-                        <form action="<?= route_to('user.loginHandeler') ?>" method="post">
+
+                        <!-- Display error message if exists -->
+                        <?php if (session()->has('error')) : ?>
+                            <div class="alert alert-danger" role="alert">
+                                <?= session('error') ?>
+                            </div>
+                        <?php endif; ?>
+
+                        <form name="loginForm" action="<?= route_to('user.loginHandeler') ?>" method="post" onsubmit="return validateForm()">
                             <?= csrf_field() ?>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Username or Email" name="email">
+                                <input type="text" placeholder="Email" name="email" required>
                                 <i class="fa fa-user"></i>
                             </div>
                             <div class="account-form-group">
-                                <input type="password" placeholder="Password" name="password">
+                                <input type="password" placeholder="Password" name="password" required>
                                 <i class="fa fa-lock"></i>
                             </div>
                             <div class="remember-row">
@@ -173,6 +181,8 @@
         </div>
     </section>
     <!-- Login Area End -->
+
+
 
 
     <!-- Footer Area Start -->
