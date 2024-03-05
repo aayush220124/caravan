@@ -41,6 +41,32 @@
 
 <body>
 
+    <!-- Header Top Area Start -->
+    <section class="gauto-header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-top-left">
+                        <p>Need Help?: <i class="fa fa-phone"></i> Call: +321 123 45 978</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-top-right">
+                        <a href="<?= route_to('user.loginPage') ?>">
+                            <i class="fa fa-key"></i>
+                            login
+                        </a>
+                        <a href="<?= route_to('user.signupPage') ?>">
+                            <i class="fa fa-user"></i>
+                            register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header Top Area End -->
+
     <!-- Main Header Area Start -->
     <header class="gauto-main-header-area">
         <div class="container">
@@ -93,9 +119,9 @@
                     <div class="mainmenu">
                         <nav>
                             <ul id="gauto_navigation">
-                                <li><a href="">home</a></li>
-                                <li><a href="">about</a></li>
-                                <li><a href="">contact</a></li>
+                                <li><a href="<?= route_to('home') ?>">home</a></li>
+                                <li><a href="<?= route_to('about') ?>">about</a></li>
+                                <li><a href="<?= route_to('contact') ?>">contact</a></li>
                                 <li><a href="#">Complate Booking</a></li>
                                 <li><a href="#">Wish List</a></li>
                                 <li><a href="#">RVs</a></li>
@@ -143,25 +169,48 @@
                         </div>
 
                         <!-- Display error message if exists -->
-                        <?php if (session()->has('error')) : ?>
-                            <div class="alert alert-danger" role="alert">
-                                <?= session('error') ?>
+                        <?php if (session()->has('alert-danger')) : ?>
+                            <div class="alert alert-danger text-left alert-dismissible fade show" role="alert">
+                                <?= session('alert-danger') ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
                         <?php endif; ?>
 
-                        <form name="loginForm" action="<?= route_to('user.loginHandeler') ?>" method="post" onsubmit="return validateForm()">
+                        <!-- Display success message if exists -->
+                        <?php if (session()->has('alert-success')) : ?>
+                            <div class="alert alert-success text-left alert-dismissible fade show" role="alert">
+                                <?= session('alert-success') ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <?php endif; ?>
+
+                        <form name="loginForm" action="<?= route_to('user.loginHandeler') ?>" method="post">
                             <?= csrf_field() ?>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Email" name="email" required>
-                                <i class="fa fa-user"></i>
+                                <input type="email" placeholder="Email" name="email" required value="<?= old('email') ?>">
+                                <i class="fa fa-envelope-o"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['email'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['email']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="account-form-group">
-                                <input type="password" placeholder="Password" name="password" required>
+                                <input type="password" placeholder="Password" name="password" required minlength="8" value="<?= old('password') ?>">
                                 <i class="fa fa-lock"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['password'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['password']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="remember-row">
                                 <p class="lost-pass">
-                                    <a href="#">forgot password?</a>
+                                    <a href="<?= route_to('user.forgotPassword') ?>">forgot password?</a>
                                 </p>
                                 <p class="checkbox remember">
                                     <input class="checkbox-spin" type="checkbox" id="Freelance">
@@ -172,6 +221,7 @@
                                 <button type="submit" class="gauto-theme-btn">Login now</button>
                             </p>
                         </form>
+
                         <div class="login-sign-up">
                             <a href="<?= route_to('user.signupPage') ?>">Do you need an account?</a>
                         </div>
@@ -181,8 +231,6 @@
         </div>
     </section>
     <!-- Login Area End -->
-
-
 
 
     <!-- Footer Area Start -->

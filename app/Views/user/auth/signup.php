@@ -41,6 +41,32 @@
 
 <body>
 
+    <!-- Header Top Area Start -->
+    <section class="gauto-header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-top-left">
+                        <p>Need Help?: <i class="fa fa-phone"></i> Call: +321 123 45 978</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-top-right">
+                        <a href="<?= route_to('user.loginPage') ?>">
+                            <i class="fa fa-key"></i>
+                            login
+                        </a>
+                        <a href="<?= route_to('user.signupPage') ?>">
+                            <i class="fa fa-user"></i>
+                            register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header Top Area End -->
+
     <!-- Main Header Area Start -->
     <header class="gauto-main-header-area">
         <div class="container">
@@ -93,9 +119,9 @@
                     <div class="mainmenu">
                         <nav>
                             <ul id="gauto_navigation">
-                                <li><a href="">home</a></li>
-                                <li><a href="">about</a></li>
-                                <li><a href="">contact</a></li>
+                                <li><a href="<?= route_to('home') ?>">home</a></li>
+                                <li><a href="<?= route_to('about') ?>">about</a></li>
+                                <li><a href="<?= route_to('contact') ?>">contact</a></li>
                                 <li><a href="#">Complate Booking</a></li>
                                 <li><a href="#">Wish List</a></li>
                                 <li><a href="#">RVs</a></li>
@@ -140,23 +166,64 @@
                             <i class="fa fa-key"></i>
                             <h3>Sign Up</h3>
                         </div>
-                        <form action="<?= route_to('user.signupHandeler') ?>" method="post">
+
+                        <!-- Display error message if exists -->
+                        <?php if (session()->has('alert-danger')) : ?>
+                            <div class="alert alert-warningtext-left alert-dismissible fade show" role="alert">
+                                <?= session('alert-danger') ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <?php endif; ?>
+
+                        <!-- Display success message if exists -->
+                        <?php if (session()->has('alert-success')) : ?>
+                            <div class="alert alert-warningtext-left alert-dismissible fade show" role="alert">
+                                <?= session('alert-success') ?>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        <?php endif; ?>
+
+                        <form action="<?= route_to('user.signupHandler') ?>" method="post">
                             <?= csrf_field() ?>
                             <div class="account-form-group">
-                                <input type="text" placeholder="Username" name="username" required>
+                                <input type="text" placeholder="Username" name="username" required value="<?= old('username') ?>">
                                 <i class="fa fa-user"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['username'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['username']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="account-form-group">
-                                <input type="email" placeholder="Email" name="email" required>
+                                <input type="email" placeholder="Email" name="email" required value="<?= old('email') ?>">
                                 <i class="fa fa-envelope-o"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['email'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['email']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="account-form-group">
-                                <input type="tel" placeholder="Mobile" name="mobile" pattern="[0-9]{10}" required>
+                                <input type="text" placeholder="Mobile" name="mobile" required pattern="[0-9]{10}" value="<?= old('mobile') ?>">
                                 <i class="fa fa-phone"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['mobile'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['mobile']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="account-form-group">
                                 <input type="password" placeholder="Password (min 8 characters, combination of letters, numbers, and special characters)" name="password" required pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,}">
                                 <i class="fa fa-lock"></i>
+                                <?php if (session()->has('errors') && isset(session('errors')['password'])) : ?>
+                                    <div class="input-error">
+                                        <?php echo esc(session('errors')['password']); ?>
+                                    </div>
+                                <?php endif; ?>
                             </div>
                             <div class="remember-row">
                                 <p class="checkbox remember signup">

@@ -8,6 +8,8 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\User\UserAuthCheckFilter;
+use App\Filters\Admin\AdminAuthCheckFilter;
 
 class Filters extends BaseConfig
 {
@@ -24,6 +26,8 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'userauth'      => UserAuthCheckFilter::class,
+        'adminauth'     => AdminAuthCheckFilter::class,
     ];
 
     /**

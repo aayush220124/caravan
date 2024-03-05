@@ -1,0 +1,90 @@
+date/time         : 2024-02-20, 17:48:47, 417ms
+computer name     : LAPTOP-3BHR0EOL
+user name         : jimis
+registered owner  : jimish.gajjar@gmail.com
+operating system  : Windows NT New x64 build 9200
+system language   : English
+system up time    : 5 hours 19 minutes
+program up time   : 1 second
+processors        : 16x AMD Ryzen 7 4800H with Radeon Graphics
+physical memory   : 4932/15790 MB (free/total)
+free disk space   : (C:) 76.21 GB
+display mode      : 1920x1080, 32 bit
+process id        : $701c
+allocated memory  : 25.91 MB
+command line      : C:\xampp\sendmail\sendmail.exe -t -f webhost466@gmail.com
+executable        : sendmail.exe
+exec. date/time   : 2012-04-16 12:30
+compiled with     : Delphi 2006/07
+madExcept version : 3.0l
+callstack crc     : $1d5da2f6, $82772726, $82772726
+exception number  : 1
+exception class   : EIdSocketError
+exception message : Socket Error # 10054 Connection reset by peer.
+
+main thread ($1d44):
+00435e23 +0073 sendmail.exe IdStack           706  +42 TIdStack.RaiseSocketError
+00435daa +0016 sendmail.exe IdStack           660   +1 TIdStack.RaiseLastSocketError
+00435d15 +0015 sendmail.exe IdStack           634   +2 TIdStack.CheckForSocketError
+00434f61 +0025 sendmail.exe IdStackBSDBase    410   +1 TIdStackBSDBase.Receive
+0043a426 +0012 sendmail.exe IdSocketHandle    313   +1 TIdSocketHandle.Receive
+00440c9b +002b sendmail.exe IdIOHandlerStack  372   +2 TIdIOHandlerStack.ReadDataFromSource
+00445681 +0009 sendmail.exe IdSSL             180   +1 TIdSSLIOHandlerSocketBase.ReadDataFromSource
+0043d9bd +00e1 sendmail.exe IdIOHandler      1471  +23 TIdIOHandler.ReadFromSource
+0043d559 +0159 sendmail.exe IdIOHandler      1315  +57 TIdIOHandler.ReadLn
+0043d380 +0024 sendmail.exe IdIOHandler      1233   +1 TIdIOHandler.ReadLn
+0043d837 +0073 sendmail.exe IdIOHandler      1428  +10 TIdIOHandler.ReadLnWait
+0044035d +0059 sendmail.exe IdTCPConnection   768   +7 TIdTCPConnection.GetInternalResponse
+0043fea3 +0013 sendmail.exe IdTCPConnection   564   +1 TIdTCPConnection.GetResponse
+0043ff87 +005b sendmail.exe IdTCPConnection   585   +4 TIdTCPConnection.SendCmd
+004401f3 +003b sendmail.exe IdTCPConnection   721   +2 TIdTCPConnection.SendCmd
+004597f2 +007e sendmail.exe IdSMTPBase        226  +17 TIdSMTPBase.SendGreeting
+0045ab9f +003b sendmail.exe IdSMTP            376   +5 TIdSMTP.Connect
+004b5f14 +1060 sendmail.exe sendmail          808 +326 initialization
+76fe7ba7 +0017 KERNEL32.DLL                            BaseThreadInitThunk
+
+thread $7840:
+76fe7ba7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4580:
+76fe7ba7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $7d80:
+76fe7ba7 +17 KERNEL32.DLL  BaseThreadInitThunk
+
+stack dump:
+0019fb50  28 5e 43 00 de fa ed 0e - 01 00 00 00 07 00 00 00  (^C.............
+0019fb60  64 fb 19 00 28 5e 43 00 - 38 cc 4f 02 ec 28 43 00  d...(^C.8.O..(C.
+0019fb70  ec 28 43 00 b4 03 00 00 - a0 fb 19 00 80 fb 19 00  .(C.............
+0019fb80  f4 fb 19 00 c8 4b 40 00 - a0 fb 19 00 40 50 4f 02  .....K@.....@PO.
+0019fb90  00 00 00 00 00 00 00 00 - 46 27 00 00 40 50 4f 02  ........F'..@PO.
+0019fba0  ac fb 19 00 ad 5d 43 00 - 40 50 4f 02 c0 fb 19 00  .....]C.@PO.....
+0019fbb0  1a 5d 43 00 00 00 00 00 - ff ff ff ff 40 50 4f 02  .]C.........@PO.
+0019fbc0  38 fc 19 00 66 4f 43 00 - 94 34 46 00 10 6a 4e 02  8...fOC..4F..jN.
+0019fbd0  ec 28 43 00 29 a4 43 00 - 34 fc 19 00 40 5b 4a 02  .(C.).C.4...@[J.
+0019fbe0  a0 0c 44 00 94 34 46 00 - 00 00 00 00 86 56 44 00  ..D..4F......VD.
+0019fbf0  c0 d9 43 00 00 fc 19 00 - c8 4b 40 00 38 fc 19 00  ..C......K@.8...
+0019fc00  44 fc 19 00 c8 4b 40 00 - 38 fc 19 00 ff ff ff ff  D....K@.8.......
+0019fc10  40 5b 4a 02 00 00 00 00 - 00 00 00 00 00 00 00 00  @[J.............
+0019fc20  00 00 00 00 00 00 00 00 - fe ff ff ff 00 00 00 01  ................
+0019fc30  40 5b 4a 02 00 00 00 00 - 78 fc 19 00 5e d5 43 00  @[J.....x...^.C.
+0019fc40  01 00 00 00 a8 fc 19 00 - c8 4b 40 00 78 fc 19 00  .........K@.x...
+0019fc50  14 fd 19 00 e0 aa 50 02 - 94 34 46 00 00 00 00 00  ......P..4F.....
+0019fc60  00 3f 24 01 00 00 00 00 - ff ff ff ff 00 00 00 00  .?$.............
+0019fc70  00 00 00 00 00 00 00 00 - 9c fc 19 00 86 d3 43 00  ..............C.
+0019fc80  c8 fc 19 00 00 ab 50 02 - e0 aa 50 02 00 40 00 00  ......P...P..@..
+
+disassembling:
+[...]
+00435e13       push    eax
+00435e14       mov     ecx, [ebp-8]
+00435e17       mov     dl, 1
+00435e19       mov     eax, [$4352ac]
+00435e1e       call    -$717 ($43570c)        ; IdStack.EIdSocketError.CreateError
+00435e23     > call    -$3113c ($404cec)      ; System.@RaiseExcept
+00435e28 707   xor     eax, eax
+00435e2a       pop     edx
+00435e2b       pop     ecx
+00435e2c       pop     ecx
+00435e2d       mov     fs:[eax], edx
+[...]

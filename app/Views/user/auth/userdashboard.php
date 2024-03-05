@@ -41,6 +41,32 @@
 
 <body>
 
+    <!-- Header Top Area Start -->
+    <section class="gauto-header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header-top-left">
+                        <p>Need Help?: <i class="fa fa-phone"></i> Call: +321 123 45 978</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="header-top-right">
+                        <a href="<?= route_to('user.loginPage') ?>">
+                            <i class="fa fa-key"></i>
+                            login
+                        </a>
+                        <a href="<?= route_to('user.signupPage') ?>">
+                            <i class="fa fa-user"></i>
+                            register
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header Top Area End -->
+
     <!-- Main Header Area Start -->
     <header class="gauto-main-header-area">
         <div class="container">
@@ -93,9 +119,9 @@
                     <div class="mainmenu">
                         <nav>
                             <ul id="gauto_navigation">
-                                <li><a href="">home</a></li>
-                                <li><a href="">about</a></li>
-                                <li><a href="">contact</a></li>
+                                <li><a href="<?= route_to('home') ?>">home</a></li>
+                                <li><a href="<?= route_to('about') ?>">about</a></li>
+                                <li><a href="<?= route_to('contact') ?>">contact</a></li>
                                 <li><a href="#">Complate Booking</a></li>
                                 <li><a href="#">Wish List</a></li>
                                 <li><a href="#">RVs</a></li>
@@ -146,10 +172,7 @@
                             Welcome TO Dashboard
                         </h1>
 
-                        <form action="<?= route_to('user.logoutHandeler') ?>" method="post">
-                            <?= csrf_field() ?>
-                            <button type="submit" class="btn btn-primary">Logout</button>
-                        </form>
+                        <a href="<?= route_to('user.logoutHandeler') ?>" class="btn btn-primary">Logout</a>
                     </div>
                 </div>
             </div>

@@ -1228,8 +1228,8 @@ button.gauto-theme-btn:hover {
 }
 
 .find-box {
-  background: #fff url(../img/find-box-bg.png) no-repeat scroll 0 0;
-  padding: 30px;
+  /* background: #fff url(../img/find-box-bg.png) no-repeat scroll 0 0; */
+  padding: 20px;
   position: relative;
   z-index: 999;
   box-shadow: 3px 0 29px rgba(0, 0, 0, 0.26);
@@ -4179,7 +4179,7 @@ input[type="radio"]:checked ~ label {
   width: 100%;
   border: 2px solid #f0f0ff;
   padding: 5px 10px 5px 60px;
-  height: 45px;
+  height: 50px;
   color: #111;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
@@ -4501,4 +4501,20 @@ input[type="radio"]:checked ~ label {
   background: #ec6f23 none repeat scroll 0 0;
   color: #fff;
   border: 1px solid #ec6f23;
+}
+
+/* My Css */
+.find-box-title {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  background-color: #ec6f23;
+}
+
+.input-error {
+  color: red;
+  text-align: left;
+  padding-bottom: 5px;
+  clear: both;
 }
